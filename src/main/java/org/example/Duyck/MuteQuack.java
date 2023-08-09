@@ -1,0 +1,9 @@
+package org.example.Duyck;
+
+public class MuteQuack implements QuackBehavior {
+    public void quack() {
+        System.out.println("<< Silence >>");
+    }
+}
+
+
